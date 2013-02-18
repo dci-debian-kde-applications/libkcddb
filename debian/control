@@ -15,7 +15,7 @@ Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/libkcddb.git
 Package: libkcddb4
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, libkcompactdisc4
 Description: CDDB library for KDE Platform (runtime)
  The KDE Compact Disc DataBase library provides an API for applications using 
  the KDE Platform to fetch and submit audio CD information over the Internet.
@@ -25,7 +25,7 @@ Description: CDDB library for KDE Platform (runtime)
 Package: libkcddb-dev
 Section: libdevel
 Architecture: any
-Depends: ${misc:Depends}, libkcddb4 (= ${binary:Version})
+Depends: ${misc:Depends}, libkcddb4 (= ${binary:Version}), libkcompactdisc-dev
 Description: CDDB library for KDE Platform (development)
  The KDE Compact Disc DataBase library provides an API for KDE applications
  to fetch and submit audio CD information over the Internet.
