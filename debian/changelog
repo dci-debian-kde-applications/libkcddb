@@ -1,10 +1,11 @@
-libkcddb (4:4.10.0-0r1) UNRELEASED; urgency=low
+libkcddb (4:4.10.2-1) experimental; urgency=low
 
   [ Pino Toscano ]
   * Initial packaging.
 
   [ Sune Vuorela ]
-  * Bump stuff to 4.10
-  * Add myself to uploaders
+  * Bump stuff to 4.10.
+  * Add myself to uploaders.
+  * Update symbols file.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 18 Feb 2013 23:31:08 +0100
+ -- Sune Vuorela <sune@debian.org>  Fri, 05 Apr 2013 21:46:28 +0000
