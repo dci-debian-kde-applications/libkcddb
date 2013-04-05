@@ -3,4 +3,8 @@ libkcddb (4:4.10.0-0r1) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * Initial packaging.
 
+  [ Sune Vuorela ]
+  * Bump stuff to 4.10
+  * Add myself to uploaders
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 18 Feb 2013 23:31:08 +0100
