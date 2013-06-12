@@ -4,6 +4,7 @@ libkcddb (4:4.10.4-1) UNRELEASED; urgency=low
   * Bump debhelper build-dep and compat to 9.
   * Bump Standards-Version to 3.9.4.
   * Update vcs fields.
+  * Add myself to uploaders.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 10 Jun 2013 11:37:34 +0200
 
