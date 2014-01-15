@@ -19,7 +19,7 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libkcompactdisc4
 Description: CDDB library for KDE Platform (runtime)
- The KDE Compact Disc DataBase library provides an API for applications using 
+ The KDE Compact Disc DataBase library provides an API for applications using
  the KDE Platform to fetch and submit audio CD information over the Internet.
  .
  This package is part of the KDE multimedia module.
