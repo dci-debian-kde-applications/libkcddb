@@ -1,11 +1,11 @@
-libkcddb (4:4.11.5-1) UNRELEASED; urgency=low
+libkcddb (4:4.11.5-1) unstable; urgency=low
 
   * New upstream release.
   * Bump Standards-Version to 3.9.5, no changes needed.
   * Add autopkgtests.
   * Add abi-compliance-checker info.
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 14 Jan 2014 21:58:43 -0300
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 17 Jan 2014 13:21:32 -0300
 
 libkcddb (4:4.11.3-1) unstable; urgency=low
 
