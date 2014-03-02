@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.10.5 amd64
+# SymbolsHelper-Confirmed: 4:4.12.3 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390x sparc
 libkcddb.so.4 libkcddb4 #MINVER#
  _ZN10ConfigBase10setReplyToERK7QString@Base 4:4.3.4
  _ZN10ConfigBase11setHostnameERK7QString@Base 4:4.3.4
@@ -148,14 +148,14 @@ libkcddb.so.4 libkcddb4 #MINVER#
  _ZNK5KCDDB9TrackInfo8toStringEv@Base 4:4.3.4
  _ZNK5KCDDB9TrackInfoeqERKS0_@Base 4:4.3.4
  _ZNK5KCDDB9TrackInfoneERKS0_@Base 4:4.3.4
- (optional=templinst)_ZNSt4pairIKSsSsED1Ev@Base 4:4.10.2
- (optional=templinst)_ZNSt4pairIKSsSsED2Ev@Base 4:4.10.2
- (optional=templinst)_ZNSt8_Rb_treeISsSt4pairIKSsSsESt10_Select1stIS2_ESt4lessISsESaIS2_EE10_M_insert_EPKSt18_Rb_tree_node_baseSB_RKS2_@Base 4:4.10.2
- (optional=templinst)_ZNSt8_Rb_treeISsSt4pairIKSsSsESt10_Select1stIS2_ESt4lessISsESaIS2_EE10_M_insert_EPSt18_Rb_tree_node_baseSA_RKS2_@Base 4:4.10.5
- (optional=templinst)_ZNSt8_Rb_treeISsSt4pairIKSsSsESt10_Select1stIS2_ESt4lessISsESaIS2_EE16_M_insert_uniqueERKS2_@Base 4:4.10.2
- (optional=templinst)_ZNSt8_Rb_treeISsSt4pairIKSsSsESt10_Select1stIS2_ESt4lessISsESaIS2_EE17_M_insert_unique_ESt23_Rb_tree_const_iteratorIS2_ERKS2_@Base 4:4.10.2
- (optional=templinst)_ZNSt8_Rb_treeISsSt4pairIKSsSsESt10_Select1stIS2_ESt4lessISsESaIS2_EE24_M_get_insert_unique_posERS1_@Base 4:4.10.5
- (optional=templinst)_ZNSt8_Rb_treeISsSt4pairIKSsSsESt10_Select1stIS2_ESt4lessISsESaIS2_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS2_ERS1_@Base 4:4.10.5
+ (optional=templinst|arch=!sparc)_ZNSt4pairIKSsSsED1Ev@Base 4:4.10.2
+ (optional=templinst|arch=!sparc)_ZNSt4pairIKSsSsED2Ev@Base 4:4.10.2
+ (optional=templinst|arch=sparc)_ZNSt8_Rb_treeISsSt4pairIKSsSsESt10_Select1stIS2_ESt4lessISsESaIS2_EE10_M_insert_EPKSt18_Rb_tree_node_baseSB_RKS2_@Base 4:4.10.2
+ (optional=templinst|arch=armhf kfreebsd-amd64)_ZNSt8_Rb_treeISsSt4pairIKSsSsESt10_Select1stIS2_ESt4lessISsESaIS2_EE10_M_insert_EPSt18_Rb_tree_node_baseSA_RKS2_@Base 4:4.10.5
+ (optional=templinst|arch=sparc)_ZNSt8_Rb_treeISsSt4pairIKSsSsESt10_Select1stIS2_ESt4lessISsESaIS2_EE16_M_insert_uniqueERKS2_@Base 4:4.10.2
+ (optional=templinst|arch=!kfreebsd-amd64)_ZNSt8_Rb_treeISsSt4pairIKSsSsESt10_Select1stIS2_ESt4lessISsESaIS2_EE17_M_insert_unique_ESt23_Rb_tree_const_iteratorIS2_ERKS2_@Base 4:4.10.2
+ (optional=templinst|arch=!sparc)_ZNSt8_Rb_treeISsSt4pairIKSsSsESt10_Select1stIS2_ESt4lessISsESaIS2_EE24_M_get_insert_unique_posERS1_@Base 4:4.10.5
+ (optional=templinst|arch=kfreebsd-amd64)_ZNSt8_Rb_treeISsSt4pairIKSsSsESt10_Select1stIS2_ESt4lessISsESaIS2_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS2_ERS1_@Base 4:4.10.5
  (optional=templinst)_ZNSt8_Rb_treeISsSt4pairIKSsSsESt10_Select1stIS2_ESt4lessISsESaIS2_EE8_M_eraseEPSt13_Rb_tree_nodeIS2_E@Base 4:4.10.2
  _ZTI10ConfigBase@Base 4:4.3.4
  _ZTIN5KCDDB12CDInfoDialogE@Base 4:4.3.4
