@@ -1,6 +1,7 @@
 libkcddb (4:4.14.0-1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * Update symbols file with 4:4.13.3-1 buildds logs.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 18 Aug 2014 18:18:29 +0200
 
