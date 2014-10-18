@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.14.0 alpha arm64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 ppc64el s390x sparc x32
+# SymbolsHelper-Confirmed: 4:4.14.2 amd64
 libkcddb.so.4 libkcddb4 #MINVER#
  _ZN10ConfigBase10setReplyToERK7QString@Base 4:4.3.4
  _ZN10ConfigBase11setHostnameERK7QString@Base 4:4.3.4
