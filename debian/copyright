@@ -3,7 +3,7 @@ Upstream-Name: libkcddb
 Upstream-Contact: kde-multimedia@kde.org
 Source: ftp.kde.org
 
-Files: kcmcddb/*
+Files: *
 Copyright: 2002, Rik Hemsley <rik@kde.org>
            2002, Benjamin Meyer <ben-devel@meyerhome.net>
            2003-2004, Richard Lärkäng <nouseforaname@home.se>
