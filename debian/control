@@ -30,7 +30,10 @@ Description: CDDB library for KDE Platform (runtime)
 Package: libkcddb-dev
 Section: libdevel
 Architecture: any
-Depends: libkcddb4 (= ${binary:Version}), libkcompactdisc-dev, ${misc:Depends}
+Depends: kdelibs5-dev,
+         libkcddb4 (= ${binary:Version}),
+         libqt4-dev,
+         ${misc:Depends}
 Description: CDDB library for KDE Platform (development)
  The KDE Compact Disc DataBase library provides an API for KDE applications
  to fetch and submit audio CD information over the Internet.
