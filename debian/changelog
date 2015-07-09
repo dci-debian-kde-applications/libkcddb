@@ -3,6 +3,7 @@ libkcddb (4:15.04.1-1~) UNRELEASED; urgency=medium
   * New upstream release (15.04.0).
   * New upstream release (15.04.1).
   * Update symbols files from buildds logs (4:14.12.2-1).
+  * New patch: libmusicbrainz5cc.patch (Closes: #791884)
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 18 May 2015 14:16:44 +0200
 
