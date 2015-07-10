@@ -1,4 +1,4 @@
-libkcddb (4:15.04.1-1~) UNRELEASED; urgency=medium
+libkcddb (4:15.04.1-1) unstable; urgency=medium
 
   * New upstream release (15.04.0).
   * New upstream release (15.04.1).
@@ -6,7 +6,7 @@ libkcddb (4:15.04.1-1~) UNRELEASED; urgency=medium
   * New patch: libmusicbrainz5cc.patch (Closes: #791884)
   * Bump build depends of libmusicbrainz5-dev to 5.1.0+git20150707~
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 18 May 2015 14:16:44 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 10 Jul 2015 11:57:03 +0200
 
 libkcddb (4:14.12.2-1) experimental; urgency=medium
 
