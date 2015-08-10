@@ -1,6 +1,6 @@
 libkcddb (4:15.04.1-2~) UNRELEASED; urgency=medium
 
-  * 
+  * Update symbols files. (Closes: #777949)
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 10 Aug 2015 11:42:53 +0200
 
