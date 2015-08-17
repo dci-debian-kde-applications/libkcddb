@@ -4,6 +4,14 @@ libkcddb (4:15.07.90-0ubuntu1) UNRELEASED; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 13 Aug 2015 11:39:16 +0100
 
+libkcddb (4:15.04.3-0ubuntu1) wily; urgency=medium
+
+  * New upstream version.
+  * New patch: libmusicbrainz5cc.patch (Closes: #791884)
+  * Update symbols file.
+
+ -- Matthias Klose <doko@ubuntu.com>  Fri, 14 Aug 2015 23:02:59 +0200
+
 libkcddb (4:15.04.2-0ubuntu1) wily; urgency=medium
 
   [ Scarlett Clark ]
