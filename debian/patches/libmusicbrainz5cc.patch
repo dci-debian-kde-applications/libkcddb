@@ -10,7 +10,7 @@ Index: libkcddb-15.07.90/cmake/FindMusicBrainz5.cmake
     # in the FIND_PATH() and FIND_LIBRARY() calls
     find_package(PkgConfig)
 -   PKG_SEARCH_MODULE( MUSICBRAINZ5 libmusicbrainz5 )
-+   PKG_SEARCH_MODULE( MUSICBRAINZ5 musicbrainz5cc libmusicbrainz5 )
++   PKG_SEARCH_MODULE( MUSICBRAINZ5 libmusicbrainz5cc libmusicbrainz5 )
  ELSE (NOT WIN32)
    FIND_PATH( MUSICBRAINZ5_INCLUDE_DIRS musicbrainz5/Disc.h )
    FIND_LIBRARY( MUSICBRAINZ5_LIBRARIES NAMES musicbrainz5 )
