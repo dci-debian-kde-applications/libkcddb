@@ -3,14 +3,14 @@ Author: Maximiliano Curia <maxy@debian.org>
 Last-Update: 2015-07-09
 Index: libkcddb/cmake/FindMusicBrainz5.cmake
 ===================================================================
---- libkcddb.orig/cmake/FindMusicBrainz5.cmake	2015-07-08 10:05:09.935835266 +0200
-+++ libkcddb/cmake/FindMusicBrainz5.cmake	2015-07-09 13:36:16.002251552 +0200
-@@ -16,7 +16,7 @@
- 
- FIND_PATH(MUSICBRAINZ5_INCLUDE_DIR musicbrainz5/Disc.h)
- 
--FIND_LIBRARY( MUSICBRAINZ5_LIBRARIES NAMES musicbrainz5)
-+FIND_LIBRARY( MUSICBRAINZ5_LIBRARIES NAMES musicbrainz5cc musicbrainz5)
- 
- include(FindPackageHandleStandardArgs)
- find_package_handle_standard_args( MusicBrainz5 DEFAULT_MSG
+--- libkcddb.orig/cmake/FindMusicBrainz5.cmake	2015-09-19 16:23:48.135877796 +0200
++++ libkcddb/cmake/FindMusicBrainz5.cmake	2015-09-19 16:24:15.822765486 +0200
+@@ -18,7 +18,7 @@
+    # use pkg-config to get the directories and then use these values
+    # in the FIND_PATH() and FIND_LIBRARY() calls
+    find_package(PkgConfig)
+-   PKG_SEARCH_MODULE( MUSICBRAINZ5 libmusicbrainz5 )
++   PKG_SEARCH_MODULE( MUSICBRAINZ5 libmusicbrainz5cc libmusicbrainz5 )
+ ELSE (NOT WIN32)
+   FIND_PATH( MUSICBRAINZ5_INCLUDE_DIRS musicbrainz5/Disc.h )
+   FIND_LIBRARY( MUSICBRAINZ5_LIBRARIES NAMES musicbrainz5 )
