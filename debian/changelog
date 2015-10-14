@@ -1,8 +1,8 @@
-libkcddb (4:15.08.2-0ubuntu1) UNRELEASED; urgency=medium
+libkcddb (4:15.08.2-0ubuntu1) wily; urgency=medium
 
   * New upstream release
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 09 Oct 2015 15:04:21 -0700
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 14 Oct 2015 12:54:57 +0100
 
 libkcddb (4:15.08.1-0ubuntu1) wily; urgency=medium
 
