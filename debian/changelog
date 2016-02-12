@@ -7,6 +7,7 @@ libkcddb (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
   * Debian merge: No remaining changes.
   * New upstream release (15.12.1) 
   * Bump version.. oops 
+  * Fix tags in the patch. 
 
  -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 14:29:31 +0000
 
