@@ -1,6 +1,11 @@
 libkcddb (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Clive Johnston ]
   * New upstream release
+
+  [ Scarlett Clark ]
+  * Debian merge: No remaining changes.
+  * New upstream release (15.12.1) 
 
  -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 14:29:31 +0000
 
@@ -21,6 +26,12 @@ libkcddb (4:15.08.1-0ubuntu1) wily; urgency=medium
   * New upstream release (15.08.1)
 
  -- Clive Johnston <clivejo@aol.com>  Tue, 22 Sep 2015 17:37:55 +0100
+
+libkcddb (4:15.08.0-1) unstable; urgency=medium
+
+  * New upstream release (15.08.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 19 Sep 2015 19:10:49 +0200
 
 libkcddb (4:15.08.0-0ubuntu1) wily; urgency=medium
 
@@ -53,16 +64,39 @@ libkcddb (4:15.04.2-0ubuntu1) wily; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 09 Jun 2015 19:41:54 +0200
 
+libkcddb (4:15.04.1-2) unstable; urgency=medium
+
+  * Update symbols files. (Closes: #777949)
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 10 Aug 2015 12:25:46 +0200
+
+libkcddb (4:15.04.1-1) unstable; urgency=medium
+
+  * New upstream release (15.04.0).
+  * New upstream release (15.04.1).
+  * Update symbols files from buildds logs (4:14.12.2-1).
+  * New patch: libmusicbrainz5cc.patch (Closes: #791884)
+  * Bump build depends of libmusicbrainz5-dev to 5.1.0+git20150707~
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 10 Jul 2015 11:57:03 +0200
+
 libkcddb (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 13 Mar 2015 14:06:02 -0700
 
+libkcddb (4:14.12.2-1) experimental; urgency=medium
+
+  * Prepare Debian release.
+  * Bump Standards-Version to 3.9.6, no changes needed.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 20 Feb 2015 09:18:51 +0100
+
 libkcddb (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
-  * Remove unstable from watch file, uscan fails with 
+  * Remove unstable from watch file, uscan fails with
     remote site does not even have current version
 
 
@@ -465,8 +499,7 @@ libkcddb (4:4.8.90-0ubuntu1) quantal; urgency=low
 
 libkcddb (4:4.8.80a-0ubuntu1) quantal; urgency=low
 
-  * Initial release. 
+  * Initial release.
     - add install_docs.diff to install the kcddb KCM docs
 
  -- Philip Muškovac <yofel@kubuntu.org>  Sat, 26 May 2012 17:05:59 +0200
-

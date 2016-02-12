@@ -1,11 +1,20 @@
 Description: Prefer libmusicbrainz5cc to libmusicbrainz5
 Author: Maximiliano Curia <maxy@debian.org>
+<<<<<<< HEAD
 Last-Update: 2015-07-17
 Index: libkcddb-15.07.90/cmake/FindMusicBrainz5.cmake
 ===================================================================
 --- libkcddb-15.07.90.orig/cmake/FindMusicBrainz5.cmake
 +++ libkcddb-15.07.90/cmake/FindMusicBrainz5.cmake
 @@ -18,7 +18,7 @@ IF (NOT WIN32)
+=======
+Last-Update: 2015-07-09
+Index: libkcddb/cmake/FindMusicBrainz5.cmake
+===================================================================
+--- libkcddb.orig/cmake/FindMusicBrainz5.cmake	2015-09-19 16:23:48.135877796 +0200
++++ libkcddb/cmake/FindMusicBrainz5.cmake	2015-09-19 16:24:15.822765486 +0200
+@@ -18,7 +18,7 @@
+>>>>>>> master
     # use pkg-config to get the directories and then use these values
     # in the FIND_PATH() and FIND_LIBRARY() calls
     find_package(PkgConfig)
