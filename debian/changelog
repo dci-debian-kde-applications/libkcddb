@@ -1,3 +1,9 @@
+libkcddb (4:15.12.2-1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- Rohan Garg <rohan@kde.org>  Fri, 26 Feb 2016 22:26:16 +0100
+
 libkcddb (4:15.08.0-1) unstable; urgency=medium
 
   * New upstream release (15.08.0).
