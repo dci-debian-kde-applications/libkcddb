@@ -1,4 +1,4 @@
-libkcddb (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
+libkcddb (4:15.12.1-0ubuntu1) xenial; urgency=medium
 
   [ Clive Johnston ]
   * New upstream release
@@ -9,7 +9,7 @@ libkcddb (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
   * Bump version.. oops 
   * Fix tags in the patch. 
 
- -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 14:29:31 +0000
+ -- Clive Johnston <clivejo@aol.com>  Wed, 09 Mar 2016 11:25:20 +0100
 
 libkcddb (4:15.08.2-0ubuntu2) xenial; urgency=medium
 
