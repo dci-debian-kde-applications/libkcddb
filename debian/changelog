@@ -1,8 +1,14 @@
-libkcddb (4:15.12.2-1) UNRELEASED; urgency=medium
+libkcddb (4:15.12.2-2~1.gbpc5ab4b) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @c5ab4bdaf9eb70d1acec1e78036132fd4046214c **
+
+  [ Rohan Garg ]
   * New upstream release
 
- -- Rohan Garg <rohan@kde.org>  Fri, 26 Feb 2016 22:26:16 +0100
+  [ Automatic packaging ]
+  * Bump Standards-Version to 3.9.8
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 12:31:27 +0200
 
 libkcddb (4:15.08.0-1) unstable; urgency=medium
 
