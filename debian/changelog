@@ -1,6 +1,6 @@
-libkcddb (4:15.12.2-2~1.gbpc5ab4b) UNRELEASED; urgency=medium
+libkcddb (4:15.12.2-2~2.gbpc3c7d6) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @c5ab4bdaf9eb70d1acec1e78036132fd4046214c **
+  ** SNAPSHOT build @c3c7d69541819d3d4cd89d978142c4c7f28b385b **
 
   [ Rohan Garg ]
   * New upstream release
@@ -8,7 +8,11 @@ libkcddb (4:15.12.2-2~1.gbpc5ab4b) UNRELEASED; urgency=medium
   [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 12:31:27 +0200
+  [ Maximiliano Curia ]
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 18 Apr 2016 08:31:13 +0200
 
 libkcddb (4:15.08.0-1) unstable; urgency=medium
 
