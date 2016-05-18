@@ -1,3 +1,9 @@
+libkcddb (4:16.04.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 18 May 2016 18:45:42 +0200
+
 libkcddb (4:15.12.2-2~1.gbpc5ab4b) UNRELEASED; urgency=medium
 
   ** SNAPSHOT build @c5ab4bdaf9eb70d1acec1e78036132fd4046214c **
