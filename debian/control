@@ -50,16 +50,3 @@ Description: CDDB retrieval configuration
  Platform.
  .
  This package is part of the KDE multimedia module.
-
-Package: libkcddb-dbg
-Section: debug
-Architecture: any
-Priority: extra
-Depends: libkcddb4 (= ${binary:Version}), ${misc:Depends}
-Breaks: kdemultimedia-dbg
-Replaces: kdemultimedia-dbg
-Description: debugging symbols for libkcddb
- This package contains debugging files used to investigate problems with
- the KCDDB library.
- .
- This package is part of the KDE multimedia module.
