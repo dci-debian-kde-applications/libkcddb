@@ -1,6 +1,4 @@
-libkcddb (4:15.12.2-2~3.gbp654f8b) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @654f8b2bca93e01973aab0264bf6f00ccdfc06e6 **
+libkcddb (4:15.12.2-2) unstable; urgency=medium
 
   [ Rohan Garg ]
   * New upstream release
@@ -13,7 +11,7 @@ libkcddb (4:15.12.2-2~3.gbp654f8b) UNRELEASED; urgency=medium
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 21 May 2016 20:38:16 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 21 May 2016 23:44:38 +0200
 
 libkcddb (4:15.08.0-1) unstable; urgency=medium
 
