@@ -1,9 +1,8 @@
-libkcddb (4:16.08.0-0r1) UNRELEASED; urgency=medium
+libkcddb (4:16.08.0-1) unstable; urgency=medium
 
-  [ Pino Toscano ]
   * New upstream release.
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 28 Aug 2016 07:22:47 +0200
+ -- Pino Toscano <pino@debian.org>  Sun, 28 Aug 2016 07:35:36 +0200
 
 libkcddb (4:15.12.2-2) unstable; urgency=medium
 
