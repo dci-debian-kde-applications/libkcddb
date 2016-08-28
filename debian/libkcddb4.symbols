@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.04.1 amd64
+# SymbolsHelper-Confirmed: 4:16.08.0 alpha amd64 arm64 armel hppa i386 mips powerpc ppc64el s390x x32
 libkcddb.so.4 libkcddb4 #MINVER#
  _ZN10ConfigBase10setReplyToERK7QString@Base 4:4.3.4
  _ZN10ConfigBase11setHostnameERK7QString@Base 4:4.3.4
@@ -22,8 +22,8 @@ libkcddb.so.4 libkcddb4 #MINVER#
  _ZN10ConfigBaseD0Ev@Base 4:4.3.4
  _ZN10ConfigBaseD1Ev@Base 4:4.3.4
  _ZN10ConfigBaseD2Ev@Base 4:4.3.4
- (optional=gccinternal)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2D1Ev@Base 4:4.8.90
- (optional=gccinternal)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2D2Ev@Base 4:4.8.90
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !i386 !mips !powerpc !ppc64el !s390x !x32)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2D1Ev@Base 4:4.8.90
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !i386 !mips !powerpc !ppc64el !s390x !x32)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2D2Ev@Base 4:4.8.90
  _ZN5KCDDB12CDInfoDialog10framesTimeEj@Base 4:4.3.4
  _ZN5KCDDB12CDInfoDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN5KCDDB12CDInfoDialog11qt_metacastEPKc@Base 4:4.3.4
@@ -87,9 +87,9 @@ libkcddb.so.4 libkcddb4 #MINVER#
  _ZN5KCDDB6Config7reparseEv@Base 4:4.3.4
  _ZN5KCDDB6ConfigC1Ev@Base 4:4.3.4
  _ZN5KCDDB6ConfigC2Ev@Base 4:4.3.4
- (optional=gccinternal)_ZN5KCDDB6ConfigD0Ev@Base 4:4.6.5
- (optional=gccinternal)_ZN5KCDDB6ConfigD1Ev@Base 4:4.6.5
- (optional=gccinternal)_ZN5KCDDB6ConfigD2Ev@Base 4:4.6.5
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !i386 !mips !powerpc !ppc64el !s390x !x32)_ZN5KCDDB6ConfigD0Ev@Base 4:4.6.5
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !i386 !mips !powerpc !ppc64el !s390x !x32)_ZN5KCDDB6ConfigD1Ev@Base 4:4.6.5
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !i386 !mips !powerpc !ppc64el !s390x !x32)_ZN5KCDDB6ConfigD2Ev@Base 4:4.6.5
  _ZN5KCDDB6GenresC1ERKS0_@Base 4:4.3.4
  _ZN5KCDDB6GenresC1Ev@Base 4:4.3.4
  _ZN5KCDDB6GenresC2ERKS0_@Base 4:4.3.4
@@ -148,16 +148,16 @@ libkcddb.so.4 libkcddb4 #MINVER#
  _ZNK5KCDDB9TrackInfo8toStringEv@Base 4:4.3.4
  _ZNK5KCDDB9TrackInfoeqERKS0_@Base 4:4.3.4
  _ZNK5KCDDB9TrackInfoneERKS0_@Base 4:4.3.4
- (optional=templinst)_ZNSt4pairIKSsSsED1Ev@Base 4:4.8.90
- (optional=templinst)_ZNSt4pairIKSsSsED2Ev@Base 4:4.8.90
+ (optional=templinst|arch=!alpha !amd64 !arm64 !armel !hppa !i386 !mips !powerpc !ppc64el !s390x !x32)_ZNSt4pairIKSsSsED1Ev@Base 4:4.8.90
+ (optional=templinst|arch=!alpha !amd64 !arm64 !armel !hppa !i386 !mips !powerpc !ppc64el !s390x !x32)_ZNSt4pairIKSsSsED2Ev@Base 4:4.8.90
  (optional=templinst)_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_S5_ESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE24_M_get_insert_unique_posERS7_@Base 4:15.04.1
- (optional=templinst)_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_S5_ESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS8_ERS7_@Base 4:15.04.1
- (optional=templinst)_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_S5_ESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E@Base 4:15.04.1
- (optional=templinst)_ZNSt8_Rb_treeISsSt4pairIKSsSsESt10_Select1stIS2_ESt4lessISsESaIS2_EE10_M_insert_EPSt18_Rb_tree_node_baseSA_RKS2_@Base 4:4.10.90
- (optional=templinst|arch=alpha armel armhf hurd-i386 i386 kfreebsd-i386 mips mipsel powerpc ppc64 s390x sparc)_ZNSt8_Rb_treeISsSt4pairIKSsSsESt10_Select1stIS2_ESt4lessISsESaIS2_EE17_M_insert_unique_ESt23_Rb_tree_const_iteratorIS2_ERKS2_@Base 4:4.10.90
- (optional=templinst)_ZNSt8_Rb_treeISsSt4pairIKSsSsESt10_Select1stIS2_ESt4lessISsESaIS2_EE24_M_get_insert_unique_posERS1_@Base 4:4.10.3
- (optional=templinst|arch=amd64 arm64 hppa kfreebsd-amd64 ppc64el x32)_ZNSt8_Rb_treeISsSt4pairIKSsSsESt10_Select1stIS2_ESt4lessISsESaIS2_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS2_ERS1_@Base 4:4.10.90
- (optional=templinst)_ZNSt8_Rb_treeISsSt4pairIKSsSsESt10_Select1stIS2_ESt4lessISsESaIS2_EE8_M_eraseEPSt13_Rb_tree_nodeIS2_E@Base 4:4.8.90
+ (optional=templinst|arch=amd64 arm64 hppa ppc64el x32)_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_S5_ESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS8_ERS7_@Base 4:15.04.1
+ (optional=templinst|arch=!alpha !amd64 !arm64 !armel !hppa !i386 !mips !powerpc !ppc64el !s390x !x32)_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_S5_ESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E@Base 4:15.04.1
+ (optional=templinst|arch=!alpha !amd64 !arm64 !armel !hppa !i386 !mips !powerpc !ppc64el !s390x !x32)_ZNSt8_Rb_treeISsSt4pairIKSsSsESt10_Select1stIS2_ESt4lessISsESaIS2_EE10_M_insert_EPSt18_Rb_tree_node_baseSA_RKS2_@Base 4:4.10.90
+ (optional=templinst|arch=!alpha !amd64 !arm64 !armel !hppa !i386 !mips !powerpc !ppc64el !s390x !x32|arch=alpha armel armhf hurd-i386 i386 kfreebsd-i386 mips mipsel powerpc ppc64 s390x sparc)_ZNSt8_Rb_treeISsSt4pairIKSsSsESt10_Select1stIS2_ESt4lessISsESaIS2_EE17_M_insert_unique_ESt23_Rb_tree_const_iteratorIS2_ERKS2_@Base 4:4.10.90
+ (optional=templinst|arch=!alpha !amd64 !arm64 !armel !hppa !i386 !mips !powerpc !ppc64el !s390x !x32)_ZNSt8_Rb_treeISsSt4pairIKSsSsESt10_Select1stIS2_ESt4lessISsESaIS2_EE24_M_get_insert_unique_posERS1_@Base 4:4.10.3
+ (optional=templinst|arch=!alpha !amd64 !arm64 !armel !hppa !i386 !mips !powerpc !ppc64el !s390x !x32|arch=amd64 arm64 hppa kfreebsd-amd64 ppc64el x32)_ZNSt8_Rb_treeISsSt4pairIKSsSsESt10_Select1stIS2_ESt4lessISsESaIS2_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS2_ERS1_@Base 4:4.10.90
+ (optional=templinst|arch=!alpha !amd64 !arm64 !armel !hppa !i386 !mips !powerpc !ppc64el !s390x !x32)_ZNSt8_Rb_treeISsSt4pairIKSsSsESt10_Select1stIS2_ESt4lessISsESaIS2_EE8_M_eraseEPSt13_Rb_tree_nodeIS2_E@Base 4:4.8.90
  _ZTI10ConfigBase@Base 4:4.3.4
  _ZTIN5KCDDB12CDInfoDialogE@Base 4:4.3.4
  _ZTIN5KCDDB6CDInfoE@Base 4:4.3.4
