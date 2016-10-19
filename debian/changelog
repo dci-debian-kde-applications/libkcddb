@@ -1,10 +1,12 @@
-libkcddb (4:16.08.0-2~1.gbp2787a4) UNRELEASED; urgency=medium
+libkcddb (4:16.08.0-2) unstable; urgency=medium
 
-  ** SNAPSHOT build @2787a4441da9244a267eecfd44abd6bb5f91b017 **
-
+  [ Automatic packaging ]
   * Update symbols files with the buildds results
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 28 Aug 2016 08:39:30 +0200
+  [ Maximiliano Curia ]
+  * New upstream release (16.08.2)
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 19 Oct 2016 12:34:36 +0200
 
 libkcddb (4:16.08.0-1) unstable; urgency=medium
 
