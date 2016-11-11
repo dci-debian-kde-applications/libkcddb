@@ -1,3 +1,12 @@
+libkcddb (4:16.08.3-1~1.gbp2d7c41) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @2d7c41b6d858a141cc7e96d2b5a261497b093e9c **
+
+  * Refresh patches
+  * Update symbols files with the buildds logs.
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 11 Nov 2016 16:59:38 +0100
+
 libkcddb (4:16.08.0-2) unstable; urgency=medium
 
   [ Automatic packaging ]
