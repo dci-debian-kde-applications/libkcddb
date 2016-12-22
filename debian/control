@@ -32,10 +32,24 @@ Description: CDDB library for KDE Platform (runtime)
  .
  This package is part of the KDE multimedia module.
 
+Package: libkf5cddbwidgets5
+Section: libs
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libkf5cddb5 (<< 16.12.0-0neon+16.04+build2)
+Replaces: libkf5cddb5 (<< 16.12.0-0neon+16.04+build2)
+Description: CDDB library for KDE Platform (widgets)
+ The KDE Compact Disc DataBase library provides an API for applications using
+ the KDE Platform to fetch and submit audio CD information over the Internet.
+ .
+ This package is part of the KDE multimedia module.
+
 Package: libkf5cddb-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5cddb5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5cddb5 (= ${binary:Version}),
+         libkf5cddbwidgets5 (= ${binary:Version}),
+         ${misc:Depends}
 Description: CDDB library for KDE Platform (development)
  The KDE Compact Disc DataBase library provides an API for KDE applications
  to fetch and submit audio CD information over the Internet.
@@ -45,6 +59,8 @@ Description: CDDB library for KDE Platform (development)
 Package: kde-config-cddb
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libkf5cddb5 (<< 16.12.0-0neon+16.04+build2)
+Replaces: libkf5cddb5 (<< 16.12.0-0neon+16.04+build2)
 Description: CDDB retrieval configuration
  This package contains a configuration module for tweaking CDDB retrieval
  settings for applications using the libkcddb library from the KDE Multimedia
