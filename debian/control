@@ -36,8 +36,8 @@ Package: libkf5cddbwidgets5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: libkf5cddb5 (<< 16.12.0-0neon+16.04+build2)
-Replaces: libkf5cddb5 (<< 16.12.0-0neon+16.04+build2)
+Breaks: libkf5cddb5 (<= 16.12.0-0neon+16.04+build2)
+Replaces: libkf5cddb5 (<= 16.12.0-0neon+16.04+build2)
 Description: CDDB library for KDE Platform (widgets)
  The KDE Compact Disc DataBase library provides an API for applications using
  the KDE Platform to fetch and submit audio CD information over the Internet.
