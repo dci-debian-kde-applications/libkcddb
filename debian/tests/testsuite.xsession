@@ -1,6 +1,6 @@
 #!/bin/sh
-kdeinit4
+kdeinit5
 dh_auto_test
 ret=$?
-kdeinit4_shutdown
+kdeinit5_shutdown
 exit $ret
