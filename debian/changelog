@@ -17,6 +17,7 @@ libkcddb (4:17.08.3-0r1) UNRELEASED; urgency=medium
     the Debian archive.
   * Invoke dh_install with --fail-missing, so there is no risk of forgetting
     files.
+  * Tighten inter-packages dependencies.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 11 Sep 2017 17:27:58 +0200
 
