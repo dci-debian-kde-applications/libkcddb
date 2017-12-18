@@ -14,6 +14,8 @@ libkcddb (4:17.08.3-0r1) UNRELEASED; urgency=medium
   * Remove extra kde-l10n breaks/replaces, already included in ${kde-l10n:all}.
   * Remove breaks/replaces on old libkf5cddb5, since they were never part of
     the Debian archive.
+  * Invoke dh_install with --fail-missing, so there is no risk of forgetting
+    files.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 11 Sep 2017 17:27:58 +0200
 
