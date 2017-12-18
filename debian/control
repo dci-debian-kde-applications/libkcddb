@@ -25,10 +25,8 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/libkcddb.git
 Package: kde-config-cddb
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: libkf5cddb5 (<< 16.12.0-0neon+16.04+build2),
-        ${kde-l10n:all},
-Replaces: libkf5cddb5 (<< 16.12.0-0neon+16.04+build2),
-          ${kde-l10n:all},
+Breaks: ${kde-l10n:all},
+Replaces: ${kde-l10n:all},
 Description: CDDB retrieval configuration
  This package contains a configuration module for tweaking CDDB retrieval
  settings for applications using the libkcddb library from the KDE Multimedia
@@ -65,8 +63,6 @@ Package: libkf5cddbwidgets5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: libkf5cddb5 (<= 16.12.0-0neon+16.04+build2)
-Replaces: libkf5cddb5 (<= 16.12.0-0neon+16.04+build2)
 Description: CDDB library for KDE Platform (widgets)
  The KDE Compact Disc DataBase library provides an API for applications using
  the KDE Platform to fetch and submit audio CD information over the Internet.
