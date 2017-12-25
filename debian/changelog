@@ -1,5 +1,7 @@
 libkcddb (4:17.08.3-2) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Add symbols files for libkf5cddb5, and libkf5cddbwidgets5.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 25 Dec 2017 17:25:29 +0100
 
