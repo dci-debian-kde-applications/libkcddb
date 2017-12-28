@@ -25,5 +25,4 @@ libKF5CddbWidgets.so.5 libkf5cddbwidgets5 #MINVER#
  _ZTIN5KCDDB12CDInfoDialogE@Base 4:17.08.3
  _ZTSN5KCDDB12CDInfoDialogE@Base 4:17.08.3
  _ZTVN5KCDDB12CDInfoDialogE@Base 4:17.08.3
- _ZThn16_N5KCDDB12CDInfoDialogD0Ev@Base 4:17.08.3
- _ZThn16_N5KCDDB12CDInfoDialogD1Ev@Base 4:17.08.3
+ (c++)"non-virtual thunk to KCDDB::CDInfoDialog::~CDInfoDialog()@Base" 4:17.08.3
