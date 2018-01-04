@@ -51,6 +51,7 @@ Section: libdevel
 Architecture: any
 Depends: libkf5cddb5 (= ${binary:Version}),
          libkf5cddbwidgets5 (= ${binary:Version}),
+         qtbase5-dev,
          ${misc:Depends}
 Description: CDDB library for KDE Platform (development)
  The KDE Compact Disc DataBase library provides an API for KDE applications
